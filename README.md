@@ -16,7 +16,7 @@
   />
 </p>
 
-<h1 align="center">📊 Agente de envio de E-mails</h1>
+<h1 align="center">📊 Dashboard Marketing</h1>
 
 Esse repositorio contem um Dashboard de Campanhas de Marketing criado com Python. 
 
