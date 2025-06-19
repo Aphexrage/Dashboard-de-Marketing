@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-src = "./dados/dados_marketing.csv"
+src = "./dados/dados_tratados.csv"
 
 df_dados = pd.read_csv(src, sep=';')
 

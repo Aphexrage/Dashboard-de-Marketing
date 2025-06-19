@@ -6,9 +6,9 @@ st.set_page_config(
     layout='wide'
 )
 
+src = "./dados/dados_tratados.csv"
 
-
-df_dados = pd.read_csv("./dados/dados_marketing.csv", sep=';')
+df_dados = pd.read_csv(src  , sep=';')
 
 paises = df_dados['Pais'].unique().tolist()
 
