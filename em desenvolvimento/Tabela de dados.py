@@ -30,10 +30,10 @@ totalDeClientes = df_dados.shape[0]
 
 df_dados = df_filtrado
 
-# Tratando o ID 0
+"""
 novoID = 11192
 df_dados.loc[df_dados['ID'] == 0, 'ID'] = novoID
-
+"""
 # Mostrando o df
 st.dataframe(
     df_dados,
